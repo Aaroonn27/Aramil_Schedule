@@ -1,0 +1,152 @@
+body{
+  font-family: arial;
+  background-color: #ffffea;
+}
+table {
+  border-collapse: collapse;
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+td{
+   border-radius: 5px;
+   border: 1px black solid;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.sched {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+img{
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border: black solid;
+  margin-top: 50px;
+  border-radius: 10%;
+}
+.sched td:first-child {
+    width: 10%;
+}
+
+.sched td:nth-child(n+2) {
+    width: 15%;
+}
+#siraljohn{
+background-color: #c45335;
+}
+#siraljohn1{
+background-color: #c45335;
+}
+#siraljohn2{
+background-color: #c45335;
+}
+#sirdungo{
+background-color: #cc7a3d;
+}
+#sirdungo1{
+background-color: #cc7a3d;
+}
+#sirdungo2{
+background-color: #cc7a3d;
+}
+#sirmarco{
+background-color: #e6c994;
+}
+#sirmarco1{
+background-color: #e6c994;
+}
+#sirmarco2{
+background-color: #e6c994;
+}
+#sirlara{
+background-color: #fbf2c4;
+}
+#sirlara1{
+background-color: #fbf2c4;
+}
+#sirlara2{
+background-color: #fbf2c4;
+}
+#msjasper{
+background-color: #74a892;
+}
+#msjasper1{
+background-color: #74a892;
+}
+#msescote{
+background-color: #008585;
+}
+#msescote1{
+background-color: #008585;
+}
+#msescote2{
+background-color: #008585;
+}
+#msparica{
+background-color: #78938a;
+}
+#time{
+  background-color: #fff0d4;
+}
+#time1{
+  background-color: #fff0d4;
+}
+#time2{
+  background-color: #fff0d4;
+}
+#time3{
+  background-color: #fff0d4;
+}
+#time4{
+  background-color: #fff0d4;
+}
+#time5{
+  background-color: #fff0d4;
+}
+#time6{
+  background-color: #fff0d4;
+}
+#time7{
+  background-color: #fff0d4;
+}
+#time8{
+  background-color: #fff0d4;
+}
+#time9{
+  background-color: #fff0d4;
+}
+#time0{
+  background-color: #fff0d4;
+}
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white; 
+        color: black; 
+    }
+
+    img{
+        filter: grayscale(100%);
+    }
+
+    .sched th{
+        color: black;
+    }
+
+    .sched td {
+        background-color: #ccc; 
+    }
+}
